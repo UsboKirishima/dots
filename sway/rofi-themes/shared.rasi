@@ -1,0 +1,17 @@
+* {
+    font: "JetBrainsMono NF Bold 9";
+
+    /* Backgrounds */
+    background:      #11111B;
+    bg-alt:          #3B4252;
+    background-alt:  #2E3440E6;
+
+    /* Text */
+    foreground: #D8DEE9;
+
+    /* States */
+    selected:  #88C0D0;
+    active:    #81A1C1;
+    urgent:    #BF616A;
+
+}

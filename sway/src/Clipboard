@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+exec rofi \
+    -modi "clipboard:greenclip print" \
+    -theme "$HOME"/.config/sway/rofi-themes/Clipboard.rasi \
+    -show clipboard \
+    -run-command '{cmd}'

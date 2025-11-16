@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# Code from https://github.com/gh0stzk/dotfiles
+
+options=(
+    "󰍁"
+    ""
+    "󰗽"
+    "󰜉"
+    "󰐥"
+)
+
+rofi_cmd() {
+	rofi -dmenu \
+		-p "Goodbye ${USER}" \
+		-mesg "Uptime: $(uptime -p | sed -e 's/up //g')" \
+		-no-click-to-exit \
+		-theme "$HOME"/.config/sway/rofi-themes/PowerMenu.rasi
+}
+
+chosen=$(printf "%s\n" "${options[@]}" | rofi_cmd)
+
+case $chosen in
+    "󰐥")
+        systemctl poweroff
+        ;;
+    "󰜉")
+        systemctl reboot
+        ;;
+    "󰍁")
+        swaylock
+        ;;
+    "")
+        mpc -q pause
+        playerctl pause
+        systemctl suspend
+        ;;
+    "󰗽")
+        swaymsg exit
+        ;;
+esac
