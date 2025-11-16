@@ -1,4 +1,4 @@
-![screen1](/home/usbo/coding/dots/assets/screen1.png)
+![screen1](/assets/screen1.png)
 
 # dots
 
@@ -105,10 +105,10 @@ Minimal Sway Dotfiles. 🧘 Clean, light, and optimized configuration for Waylan
 
 ## screenshots
 
-![](/home/usbo/coding/dots/assets/screen0.png)
+![](assets/screen0.png)
 
-![](/home/usbo/coding/dots/assets/screen1.png)
+![](/assets/screen1.png)
 
-![](/home/usbo/coding/dots/assets/screen3.png)
+![](/assets/screen3.png)
 
-![](/home/usbo/coding/dots/assets/screen2.png)
+![](/assets/screen2.png)
