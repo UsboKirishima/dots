@@ -50,7 +50,7 @@ for_window [app_id="blueman-manager"] floating enable, sticky enable
 for_window [app_id="galculator"] floating enable
 
 # 🖼️  Display & Wallpaper
-exec_always swaybg -i ~/.config/sway/src/assets/wallpaper.png -m fill
+# exec_always swaybg -i ~/.config/sway/src/assets/wallpaper.png -m fill
 exec_always kanshi
 
 # 🌙 Idle Behavior
